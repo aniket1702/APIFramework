@@ -5,6 +5,8 @@ import com.apitesting.extentreports.ExtentLogger;
 import com.apitesting.extentreports.loggers.LogType;
 import com.apitesting.pojo.Payload;
 import com.apitesting.request_response_specification.RequestResponseSpecification;
+import com.apitesting.utils.commons.logging.LogResponse;
+import com.apitesting.utils.commons.request_response_verification.VerifyResponse;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
@@ -23,7 +25,9 @@ public class POST_StudentDetails {
                 .extract()
                 .response();
 
-        ExtentLogger.log(LogType.PASS,response.asPrettyString());
-
+        LogResponse.logHeaders(response);
+        LogResponse.logBody(response);
+        VerifyResponse.verifyStatusCode(response,201);
+        VerifyResponse.verifyJsonKey(response,"address.street");
     }
 }

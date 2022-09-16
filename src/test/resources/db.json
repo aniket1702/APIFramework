@@ -1,29 +1,6 @@
 {
   "student": [
     {
-      "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
-      "address": {
-        "street": "Kulas Light",
-        "suite": "Apt. 556",
-        "city": "Gwenborough",
-        "zipcode": "92998-3874",
-        "geo": {
-          "lat": "-37.3159",
-          "lng": "81.1496"
-        }
-      },
-      "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
-    },
-    {
       "id": 2,
       "name": "Ervin Howell",
       "username": "Antonette",
@@ -67,52 +44,6 @@
         "name": "Romaguera-Jacobson",
         "catchPhrase": "Face to face bifurcated interface",
         "bs": "e-enable strategic applications"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Patricia Lebsack",
-      "username": "Karianne",
-      "email": "Julianne.OConner@kory.org",
-      "address": {
-        "street": "Hoeger Mall",
-        "suite": "Apt. 692",
-        "city": "South Elvis",
-        "zipcode": "53919-4257",
-        "geo": {
-          "lat": "29.4572",
-          "lng": "-164.2990"
-        }
-      },
-      "phone": "493-170-9623 x156",
-      "website": "kale.biz",
-      "company": {
-        "name": "Robel-Corkery",
-        "catchPhrase": "Multi-tiered zero tolerance productivity",
-        "bs": "transition cutting-edge web services"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Chelsey Dietrich",
-      "username": "Kamren",
-      "email": "Lucio_Hettinger@annie.ca",
-      "address": {
-        "street": "Skiles Walks",
-        "suite": "Suite 351",
-        "city": "Roscoeview",
-        "zipcode": "33263",
-        "geo": {
-          "lat": "-31.8129",
-          "lng": "62.5342"
-        }
-      },
-      "phone": "(254)954-1289",
-      "website": "demarco.info",
-      "company": {
-        "name": "Keebler LLC",
-        "catchPhrase": "User-centric fault-tolerant solution",
-        "bs": "revolutionize end-to-end systems"
       }
     },
     {
@@ -228,29 +159,6 @@
         "name": "Leuschke-Schmeler",
         "catchPhrase": "Advanced multi-state firmware",
         "bs": "transition dot-com niches"
-      }
-    },
-    {
-      "id": 24,
-      "name": "Buster Rau",
-      "username": "adelia.gutkowski",
-      "email": "ethel.kemmer@gmail.com",
-      "address": {
-        "street": "796 Schaefer Oval",
-        "suite": "Corkery Crossing",
-        "city": "North Rudolf",
-        "zipcode": "87455",
-        "geo": {
-          "lat": "-86.257055",
-          "lng": "14.169155"
-        }
-      },
-      "phone": "064.807.4198",
-      "website": "www.kihnandsons.com",
-      "company": {
-        "name": "O'Connell-Reichel",
-        "catchPhrase": "Down-sized transitional artificial intelligence",
-        "bs": "strategize sexy synergies"
       }
     },
     {
@@ -435,29 +343,6 @@
         "name": "Veum, Doyle and Trantow",
         "catchPhrase": "Cross-group reciprocal attitude",
         "bs": "enable granular users"
-      }
-    },
-    {
-      "id": 33,
-      "name": "Dr. Eric Orn",
-      "username": "santo.dietrich",
-      "email": "carl.koss@gmail.com",
-      "address": {
-        "street": "47411 Price Shoal",
-        "suite": "Rath Causeway",
-        "city": "Kutchfort",
-        "zipcode": "66979",
-        "geo": {
-          "lat": "89.373009",
-          "lng": "-30.976857"
-        }
-      },
-      "phone": "181.706.8443 x3689",
-      "website": "www.schumminc.net",
-      "company": {
-        "name": "Thompson, Nolan and Harvey",
-        "catchPhrase": "Digitized 24/7 product",
-        "bs": "engage virtual deliverables"
       }
     },
     {
@@ -1082,6 +967,52 @@
         "name": "Funk-Wintheiser",
         "catchPhrase": "Synchronised global system engine",
         "bs": "facilitate extensible networks"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Mr. Shanda Stiedemann",
+      "username": "alverta.hilpert",
+      "email": "joe.fay@gmail.com",
+      "address": {
+        "street": "Madison Terrace",
+        "suite": "New Chu",
+        "city": "Port Rudolph",
+        "zipcode": "86871",
+        "geo": {
+          "lat": "65.241080",
+          "lng": "-58.274717"
+        }
+      },
+      "phone": "332-471-9803",
+      "website": "hills.info",
+      "company": {
+        "name": "Borer-Gusikowski",
+        "catchPhrase": "Multi-lateral fault-tolerant info-mediaries",
+        "bs": "deliver bricks-and-clicks experiences"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Brenda McClure Jr.",
+      "username": "daryl.ferry",
+      "email": "dudley.parker@hotmail.com",
+      "address": {
+        "street": "Shiloh Club",
+        "suite": "Durganville",
+        "city": "West Darylberg",
+        "zipcode": "43055-0541",
+        "geo": {
+          "lat": "14.735675",
+          "lng": "-49.791047"
+        }
+      },
+      "phone": "216.187.1036 x78878",
+      "website": "dooley.biz",
+      "company": {
+        "name": "Osinski LLC",
+        "catchPhrase": "Exclusive radical support",
+        "bs": "transition vertical convergence"
       }
     }
   ]

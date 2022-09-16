@@ -2,7 +2,6 @@ package com.apitesting.utils.commons.request_response_verification;
 
 import com.apitesting.extentreports.ExtentLogger;
 import com.apitesting.extentreports.loggers.LogType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 
@@ -11,8 +10,6 @@ public final class VerifyResponse
     private VerifyResponse(){
 
     }
-
-
 
 
     public static void verifyStatusCode(Response response,int expectedStatusCode)
@@ -50,6 +47,11 @@ public final class VerifyResponse
                 ExtentLogger.log(LogType.FAIL,error.fillInStackTrace().toString());
             }
         }
+        else{
+            ExtentLogger.log(LogType.FAIL,keyParam+" is not present");
+        }
     }
+
+
 
 }

@@ -13,9 +13,7 @@ public  final class LogResponse {
     {
         ExtentLogger.log(LogType.INFO,"<b>HEADERS</b>:: </br><pre>"+response.getHeaders()+"</pre>");
         ExtentLogger.log(LogType.INFO,"<b>STATUS</b>:: </b>"+response.getStatusLine());
-
     }
-
 
     public static void logBody(Response response)
     {

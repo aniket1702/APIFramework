@@ -8,6 +8,7 @@
         <classes>
             <class name="com.apitesting.httpmethods.get.GET_StudentDetails"/>
             <class name="com.apitesting.httpmethods.post.POST_StudentDetails"/>
+            <class name="com.apitesting.httpmethods.delete.DELETE_StudentDetails"/>
         </classes>
 </test>
 </suite>
