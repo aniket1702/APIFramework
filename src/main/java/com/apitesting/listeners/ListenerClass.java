@@ -42,8 +42,6 @@ public class ListenerClass implements ITestListener, ISuiteListener {
     public void onTestFailure(ITestResult result) {
         log(LogType.FAIL,result.getMethod().getMethodName() + " is Failed.");
         log(LogType.FAIL,result.getThrowable().toString());
-
-
     }
 
     @Override

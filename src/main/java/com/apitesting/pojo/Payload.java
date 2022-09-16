@@ -8,31 +8,25 @@ import com.github.javafaker.Faker;
 
 public final class Payload {
 
-    private static Student student;
-    private static Address address;
-    private static Geo geo;
-    private static Company company;
-    private static Faker faker;
-
     private Payload(){
 
     }
 
     public static Student setValues(){
 
-        faker=new Faker();
-        student=new Student();
+        Faker faker=new Faker();
+        Student student=new Student();
         student.setName(faker.name().fullName());
         student.setUsername(faker.name().username());
         student.setEmail(faker.internet().emailAddress());
 
-        address=new Address();
+        Address address=new Address();
         address.setStreet(faker.address().streetName());
         address.setSuite(faker.address().cityName());
         address.setCity(faker.address().cityName());
         address.setZipcode(faker.address().zipCode());
 
-        geo=new Geo();
+        Geo geo=new Geo();
         geo.setLng(faker.address().longitude());
         geo.setLat(faker.address().latitude());
         address.setGeo(geo);
@@ -40,7 +34,7 @@ public final class Payload {
         student.setPhone(faker.phoneNumber().phoneNumber());
         student.setWebsite(faker.internet().domainName());
 
-        company=new Company();
+        Company company=new Company();
         company.setName(faker.company().name());
         company.setCatchPhrase(faker.company().catchPhrase());
         company.setBs(faker.company().bs());

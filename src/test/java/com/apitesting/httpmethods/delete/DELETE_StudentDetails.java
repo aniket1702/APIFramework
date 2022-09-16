@@ -1,8 +1,6 @@
 package com.apitesting.httpmethods.delete;
 
 import com.apitesting.constants.endpoints.EndPoint;
-import com.apitesting.pojo.Payload;
-import com.apitesting.pojo.students.Student;
 import com.apitesting.request_response_specification.RequestResponseSpecification;
 import com.apitesting.utils.commons.logging.LogResponse;
 import com.apitesting.utils.commons.request_response_verification.VerifyResponse;
@@ -23,7 +21,6 @@ public class DELETE_StudentDetails {
         Response response= RestAssured
                 .given()
                     .spec(RequestResponseSpecification.requestBuilder())
-                    .queryParam("address.street","Hoeger Mall")
                 .when()
                     .delete(EndPoint.DELETE_USER+id)
                 .then()
@@ -35,7 +32,6 @@ public class DELETE_StudentDetails {
         LogResponse.logBody(response);
         VerifyResponse.verifyStatusCode(response,200);
         VerifyResponse.verifyJsonKey(response, "id");
-
     }
 
 }

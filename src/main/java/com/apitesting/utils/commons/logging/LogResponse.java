@@ -17,6 +17,14 @@ public  final class LogResponse {
 
     public static void logBody(Response response)
     {
-        ExtentLogger.log(LogType.PASS, "<b>RESPONSE BODY::</b></br><div width='100%' style='overflow-y:auto; overflow-x: hidden; height:400px; border:1px solid black; padding:10px'><pre>"+response.asPrettyString()+"</pre></div>");
+        ExtentLogger.log(LogType.PASS, "<b>RESPONSE BODY::</b></br>" +
+                             "<div width='100%' " +
+                                    "style='overflow-y:auto; " +
+                                    "overflow-x: hidden; " +
+                                    "height:400px; border:1px solid black; " +
+                                    "padding:10px'>" +
+                                    "<pre>"+response.asPrettyString()+"</pre>" +
+                             "</div>"
+                        );
     }
 }

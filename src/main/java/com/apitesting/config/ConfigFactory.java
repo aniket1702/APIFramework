@@ -7,7 +7,6 @@ public final class ConfigFactory {
     private  ConfigFactory(){
 
     }
-
     public static ConfigProperties getConfig(){
         return ConfigCache.getOrCreate(ConfigProperties.class);
     }

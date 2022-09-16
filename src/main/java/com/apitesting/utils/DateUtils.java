@@ -17,8 +17,7 @@ public final class DateUtils {
 
         Date date=new Date(x);
         DateFormat formatter=new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss_aa");
-        String newDateTimeFormat=formatter.format(date);
-        return newDateTimeFormat;
+        return formatter.format(date);
 
 
     }

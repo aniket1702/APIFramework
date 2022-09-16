@@ -24,29 +24,6 @@
       }
     },
     {
-      "id": 3,
-      "name": "Clementine Bauch",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net",
-      "address": {
-        "street": "Douglas Extension",
-        "suite": "Suite 847",
-        "city": "McKenziehaven",
-        "zipcode": "59590-4157",
-        "geo": {
-          "lat": "-68.6102",
-          "lng": "-47.0653"
-        }
-      },
-      "phone": "1-463-123-4447",
-      "website": "ramiro.info",
-      "company": {
-        "name": "Romaguera-Jacobson",
-        "catchPhrase": "Face to face bifurcated interface",
-        "bs": "e-enable strategic applications"
-      }
-    },
-    {
       "id": 6,
       "name": "Leanne Graham",
       "username": "Bret",
@@ -71,29 +48,6 @@
     },
     {
       "id": 7,
-      "name": "Patricia Lebsack",
-      "username": "Karianne",
-      "email": "Julianne.OConner@kory.org",
-      "address": {
-        "street": "Hoeger Mall",
-        "suite": "Apt. 692",
-        "city": "South Elvis",
-        "zipcode": "53919-4257",
-        "geo": {
-          "lat": "29.4572",
-          "lng": "-164.2990"
-        }
-      },
-      "phone": "493-170-9623 x156",
-      "website": "kale.biz",
-      "company": {
-        "name": "Robel-Corkery",
-        "catchPhrase": "Multi-tiered zero tolerance productivity",
-        "bs": "transition cutting-edge web services"
-      }
-    },
-    {
-      "id": 9,
       "name": "Patricia Lebsack",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
@@ -438,29 +392,6 @@
       }
     },
     {
-      "id": 38,
-      "name": "Ms. Trey Gleason",
-      "username": "maximo.kirlin",
-      "email": "leeanna.parisian@hotmail.com",
-      "address": {
-        "street": "9583 Gertrudis Shoals",
-        "suite": "Jacques Square",
-        "city": "Port Alexhaven",
-        "zipcode": "14342",
-        "geo": {
-          "lat": "-44.113852",
-          "lng": "46.205547"
-        }
-      },
-      "phone": "058-359-4068 x129",
-      "website": "www.kovacekbinsandmcclure.name",
-      "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Polarised non-volatile product",
-        "bs": "recontextualize web-enabled e-services"
-      }
-    },
-    {
       "id": 39,
       "name": "Franklin Heaney MD",
       "username": "claretta.reinger",
@@ -642,29 +573,6 @@
         "name": "Daniel-Wyman",
         "catchPhrase": "Profound executive functionalities",
         "bs": "enable efficient e-tailers"
-      }
-    },
-    {
-      "id": 47,
-      "name": "Wm Johnson",
-      "username": "annmarie.gusikowski",
-      "email": "zackary.lakin@hotmail.com",
-      "address": {
-        "street": "71458 Mosciski Drive",
-        "suite": "Tayna Mews",
-        "city": "Lake Jeromy",
-        "zipcode": "88611",
-        "geo": {
-          "lat": "-81.909829",
-          "lng": "110.92455"
-        }
-      },
-      "phone": "(331) 528-1247",
-      "website": "www.stamminc.com",
-      "company": {
-        "name": "Mertz, Green and Waelchi",
-        "catchPhrase": "Function-based human-resource database",
-        "bs": "revolutionize best-of-breed partnerships"
       }
     },
     {
@@ -1013,6 +921,121 @@
         "name": "Osinski LLC",
         "catchPhrase": "Exclusive radical support",
         "bs": "transition vertical convergence"
+      }
+    },
+    {
+      "id": 64,
+      "name": "Troy Green PhD",
+      "username": "rashad.orn",
+      "email": "katie.rutherford@gmail.com",
+      "address": {
+        "street": "Stiedemann Shore",
+        "suite": "Grantview",
+        "city": "Heidenreichshire",
+        "zipcode": "89217",
+        "geo": {
+          "lat": "55.860695",
+          "lng": "-6.5999229"
+        }
+      },
+      "phone": "309.472.6603 x168",
+      "website": "rosenbaum.name",
+      "company": {
+        "name": "Mertz and Sons",
+        "catchPhrase": "Visionary local secured line",
+        "bs": "disintermediate virtual e-markets"
+      }
+    },
+    {
+      "id": 65,
+      "name": "Sammy Paucek Jr.",
+      "username": "mila.keeling",
+      "email": "rea.fay@hotmail.com",
+      "address": {
+        "street": "Rudolf Bypass",
+        "suite": "Labadieborough",
+        "city": "New Odell",
+        "zipcode": "68199",
+        "geo": {
+          "lat": "45.683160",
+          "lng": "-128.87770"
+        }
+      },
+      "phone": "(527) 479-7684",
+      "website": "hoeger.net",
+      "company": {
+        "name": "Langworth, McClure and Cole",
+        "catchPhrase": "Reduced background info-mediaries",
+        "bs": "transform proactive platforms"
+      }
+    },
+    {
+      "id": 66,
+      "name": "Colby Pfeffer",
+      "username": "bernardo.von",
+      "email": "sydney.hudson@yahoo.com",
+      "address": {
+        "street": "O'Keefe Estate",
+        "suite": "Windlerbury",
+        "city": "Botsfordberg",
+        "zipcode": "94498",
+        "geo": {
+          "lat": "-71.259957",
+          "lng": "170.11906"
+        }
+      },
+      "phone": "(841) 927-6859",
+      "website": "effertz.biz",
+      "company": {
+        "name": "Flatley LLC",
+        "catchPhrase": "Fully-configurable demand-driven process improvement",
+        "bs": "redefine collaborative vortals"
+      }
+    },
+    {
+      "id": 67,
+      "name": "Leopoldo Trantow",
+      "username": "pasquale.koelpin",
+      "email": "jackson.goodwin@gmail.com",
+      "address": {
+        "street": "Hirthe Crossroad",
+        "suite": "West Janie",
+        "city": "East Miguelinamouth",
+        "zipcode": "79517-3697",
+        "geo": {
+          "lat": "75.180709",
+          "lng": "80.806361"
+        }
+      },
+      "phone": "181-699-6092",
+      "website": "luettgen.name",
+      "company": {
+        "name": "Kling LLC",
+        "catchPhrase": "Realigned empowering conglomeration",
+        "bs": "matrix transparent niches"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Emilio Schuster",
+      "username": "alfonso.daugherty",
+      "email": "nella.marquardt@hotmail.com",
+      "address": {
+        "street": "Micheline Parkway",
+        "suite": "Sueview",
+        "city": "Carmenberg",
+        "zipcode": "38071-2869",
+        "geo": {
+          "lat": "-3.1741349",
+          "lng": "-11.380531"
+        }
+      },
+      "phone": "1-109-817-7527 x2118",
+      "website": "heaney.net",
+      "company": {
+        "name": "Hills-Sipes",
+        "catchPhrase": "Distributed scalable application",
+        "bs": "recontextualize killer solutions"
       }
     }
   ]
