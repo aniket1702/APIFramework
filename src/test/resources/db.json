@@ -1060,6 +1060,29 @@
         "catchPhrase": "Enterprise-wide leading edge implementation",
         "bs": "generate next-generation web services"
       }
+    },
+    {
+      "id": 61,
+      "name": "Dr. Isaac Bechtelar",
+      "username": "lee.bahringer",
+      "email": "jay.okon@yahoo.com",
+      "address": {
+        "street": "Schaefer Trafficway",
+        "suite": "New Eleneborough",
+        "city": "South Sheltonberg",
+        "zipcode": "83091",
+        "geo": {
+          "lat": "-0.016922433",
+          "lng": "-58.530478"
+        }
+      },
+      "phone": "638-923-8648 x03479",
+      "website": "gusikowski.info",
+      "company": {
+        "name": "Funk-Wintheiser",
+        "catchPhrase": "Synchronised global system engine",
+        "bs": "facilitate extensible networks"
+      }
     }
   ]
 }

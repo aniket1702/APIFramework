@@ -1,6 +1,7 @@
 package com.apitesting.request_response_specification;
 
 import com.apitesting.config.ConfigFactory;
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -29,10 +30,11 @@ public class RequestResponseSpecification {
                 .log(LogDetail.COOKIES);
 
         requestSpecification = requestSpecBuilder.build();
+
         return requestSpecification;
     }
 
-    @Before
+    @After
     public static ResponseSpecification responseBuilder() {
 
         ResponseSpecBuilder responseSpecBuilder = new ResponseSpecBuilder()
@@ -40,6 +42,7 @@ public class RequestResponseSpecification {
                 .log(LogDetail.BODY);
 
         responseSpecification = responseSpecBuilder.build();
+
         return responseSpecification;
 
     }

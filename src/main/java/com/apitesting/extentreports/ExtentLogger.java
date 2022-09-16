@@ -1,6 +1,6 @@
 package com.apitesting.extentreports;
 
-import com.apitesting.loggers.LogType;
+import com.apitesting.extentreports.loggers.LogType;
 
 import java.util.EnumMap;
 import java.util.Map;

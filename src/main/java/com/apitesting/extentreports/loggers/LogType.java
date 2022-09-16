@@ -1,4 +1,4 @@
-package com.apitesting.loggers;
+package com.apitesting.extentreports.loggers;
 
 public enum LogType {
     INFO,

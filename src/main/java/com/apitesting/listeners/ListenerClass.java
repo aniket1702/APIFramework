@@ -1,7 +1,7 @@
 package com.apitesting.listeners;
 
 import com.apitesting.extentreports.ExtentReport;
-import com.apitesting.loggers.LogType;
+import com.apitesting.extentreports.loggers.LogType;
 import org.testng.*;
 
 import static com.apitesting.extentreports.ExtentLogger.log;
