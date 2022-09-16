@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.apitesting.listeners.ListenerClass"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/AutomationProjects/APITesting">
+        <classes>
+            <class name="com.apitesting.httpmethods.get.GET_StudentDetails"/>
+            <class name="com.apitesting.httpmethods.post.POST_StudentDetails"/>
+        </classes>
+</test>
+</suite>
